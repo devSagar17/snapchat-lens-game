@@ -3,6 +3,8 @@
 ## Overview
 This is a simple tap-based game designed for Snapchat Lens Studio. Players have 30 seconds to tap as many times as possible to achieve a high score.
 
+The project includes both a basic version and an AR-enhanced version with face tracking and 3D elements. See `AR_INSTRUCTIONS.md` for details on the AR features.
+
 ## Game Features
 - 30-second timer
 - Score tracking
@@ -20,7 +22,8 @@ This is a simple tap-based game designed for Snapchat Lens Studio. Players have 
    - Navigate to this folder and select it
 
 3. **Customize the Game**
-   - Modify `game.js` to change game mechanics
+   - Modify `game.js` to change basic game mechanics
+   - Modify `ar_game.js` to change AR features
    - Adjust timing, scoring, or add new features
    - Edit UI elements in the `createUI()` function
 

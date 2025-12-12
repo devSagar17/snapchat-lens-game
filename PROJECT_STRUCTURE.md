@@ -7,6 +7,7 @@ This document outlines the file structure for the Snapchat Lens Studio game proj
 - `GAME_INSTRUCTIONS.md` - Detailed usage instructions
 - `lens.json` - Lens Studio project configuration
 - `game.js` - Main game script
+- `ar_game.js` - AR-enhanced game script
 - `enhanced_game_example.js` - Extended game example with additional features
 - `preview.txt` - Placeholder for preview image information
 
@@ -25,12 +26,12 @@ The main game script containing:
 - Touch event handlers
 - Timer functionality
 
-### enhanced_game_example.js
-An extended version of the game with additional features:
-- High score tracking
-- Combo system with multipliers
-- Visual effects for taps
-- Improved UI elements
+### ar_game.js
+An AR-enhanced version of the game with:
+- Face tracking integration
+- 3D objects that follow facial movements
+- Particle effects for taps
+- Dynamic color changing elements
 
 ### GAME_INSTRUCTIONS.md
 Comprehensive guide covering:
