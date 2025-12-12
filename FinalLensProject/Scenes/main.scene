@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "name": "Main Scene",
+  "objects": [
+    {
+      "name": "Main Camera",
+      "type": "Camera",
+      "components": [
+        {
+          "type": "CameraComponent",
+          "properties": {
+            "fieldOfView": 60,
+            "nearClipPlane": 0.1,
+            "farClipPlane": 100
+          }
+        }
+      ]
+    },
+    {
+      "name": "Screen Image",
+      "type": "ScreenImage",
+      "components": [
+        {
+          "type": "ScreenImageComponent",
+          "properties": {
+            "size": [1, 1],
+            "position": [0, 0]
+          }
+        }
+      ]
+    }
+  ]
+}
