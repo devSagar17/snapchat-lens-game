@@ -3,10 +3,11 @@
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Getting Started](#getting-started)
-3. [Game Instructions](#game-instructions)
-4. [AR Game Instructions](#ar-game-instructions)
-5. [Project Structure](#project-structure)
-6. [Support](#support)
+3. [Uploading to Lens Studio](#uploading-to-lens-studio)
+4. [Game Instructions](#game-instructions)
+5. [AR Game Instructions](#ar-game-instructions)
+6. [Project Structure](#project-structure)
+7. [Support](#support)
 
 ---
 
@@ -24,6 +25,79 @@ This is an augmented reality game built for Snapchat using Lens Studio.
 1. Open this project in Lens Studio
 2. Customize the game elements
 3. Export to Snapchat
+
+---
+
+## Uploading to Lens Studio
+
+### Importing the Project
+
+1. **Download and Install Lens Studio**
+   - Visit [Snapchat's Lens Studio website](https://lensstudio.snapchat.com/)
+   - Download the appropriate version for your operating system (Windows or Mac)
+   - Install the application following the on-screen instructions
+
+2. **Open Lens Studio**
+   - Launch the Lens Studio application
+   - If this is your first time, you may need to sign in with your Snapchat account
+
+3. **Import the Project**
+   - Click on "Create New Lens" or "Import Project" 
+   - Navigate to the folder where you downloaded or cloned this project
+   - Select the folder and click "Open"
+   - Lens Studio will import all project files
+
+### Configuring the Project
+
+1. **Select the Script**
+   - In the Resources panel (left sidebar), find the "Scripts" section
+   - You'll see two JavaScript files: `game.js` (basic version) and `ar_game.js` (AR version)
+   - To use the basic version: Enable `game.js` and disable `ar_game.js`
+   - To use the AR version: Enable `ar_game.js` and disable `game.js`
+
+2. **Preview the Lens**
+   - Use the preview window in Lens Studio to test your lens
+   - For the AR version, ensure your camera is enabled and working
+   - Position yourself in front of the camera to test face tracking
+
+3. **Customize the Lens**
+   - Modify the JavaScript files to change game mechanics
+   - Adjust timing, scoring, or add new features
+   - Edit UI elements by adjusting properties in the code
+
+### Publishing to Snapchat
+
+1. **Test Thoroughly**
+   - Test all features in the preview window
+   - Check both basic and AR versions if you plan to submit both
+   - Ensure all interactions work smoothly
+
+2. **Prepare for Submission**
+   - Create a compelling preview image (1080x1920 pixels recommended)
+   - Save the image as `preview.png` in the project folder
+   - Write a descriptive title and description for your lens
+   - Ensure your lens complies with Snapchat's Community Guidelines
+
+3. **Submit to Snapchat**
+   - Click the "Submit" button in Lens Studio
+   - Fill in all required information (title, description, category)
+   - Upload your preview image
+   - Review and agree to Snapchat's terms
+   - Click "Submit for Review"
+
+4. **Review Process**
+   - Snapchat typically reviews submissions within 3-5 business days
+   - You'll receive an email notification about the status of your lens
+   - If approved, your lens will be available in the Snapchat lens carousel
+   - If rejected, review the feedback and make necessary adjustments
+
+### Tips for Successful Upload
+
+- **File Size**: Keep your lens under 4MB for optimal performance
+- **Performance**: Test on different devices to ensure smooth operation
+- **User Experience**: Make sure instructions are clear and interactions are intuitive
+- **Creativity**: Add unique elements to make your lens stand out
+- **Compliance**: Follow Snapchat's guidelines for content and functionality
 
 ---
 
