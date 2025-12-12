@@ -4,11 +4,8 @@ This repository contains an augmented reality tap-based game built for Snapchat 
 
 ## Project Structure
 
-- `FinalLensProject.zip` - **FINAL: Properly structured Lens Studio project (Strongly Recommended)**
+- `FinalLensProject.zip` - **FINAL: Properly structured Lens Studio project (Recommended)**
 - `FinalLensProject/` - Unzipped final properly structured project folder
-- `SnapchatLensProject.zip` - Previous version of properly structured project
-- `SnapchatLensProject/` - Previous version of unzipped project folder
-- `assets/` - Empty folder for future assets
 
 ## Quick Start (Recommended Method)
 
