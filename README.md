@@ -4,11 +4,22 @@ This repository contains an augmented reality tap-based game built for Snapchat 
 
 ## Project Structure
 
-- `SnapchatARGame.zip` - Complete project package ready for import into Lens Studio
-- `LensStudioProject/` - Unzipped project folder with all source files
+- `SnapchatARGame.zip` - Original project package
+- `SnapchatLensProject.zip` - **NEW: Properly structured Lens Studio project (Recommended)**
+- `SnapchatLensProject/` - Unzipped properly structured project folder
+- `LensStudioProject/` - Original project folder
 - `assets/` - Empty folder for future assets
 
-## Quick Start
+## Quick Start (Recommended Method)
+
+1. Download `SnapchatLensProject.zip` from this repository
+2. Extract the zip file
+3. Open Lens Studio
+4. Click "Import Project"
+5. Navigate to the extracted `SnapchatLensProject` folder and select it
+6. Click "Open"
+
+## Alternative Quick Start Methods
 
 1. **Easiest Method**: Download `SnapchatARGame.zip` and import it directly into Lens Studio
 2. **Alternative Method**: Clone or download the repository and use the `LensStudioProject` folder
