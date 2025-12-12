@@ -1,0 +1,4 @@
+This is a placeholder for the preview image file.
+In a real project, you would include an actual preview.png image here.
+The image should be a screenshot or representation of your lens game.
+Recommended size: 1080x1920 pixels (9:16 aspect ratio)
